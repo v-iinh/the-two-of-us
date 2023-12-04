@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: cursive, sans-serif;
+    font-family: Comic Sans MS, Comic Sans, cursive;
     color: #A8DADC;
     margin-inline: 50px;
     text-align: center;
@@ -44,7 +44,7 @@ button{
     outline: none;
     cursor: pointer; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
-    font-family: cursive, sans-serif;
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 button:nth-child(1){
@@ -52,6 +52,10 @@ button:nth-child(1){
     background-color: #A8DADC;
     color: black;
     border-color: whitesmoke;
+}
+
+.btn-yes:hover{
+    border-color: #A8DADC;
 }
 
 button:nth-child(2){
