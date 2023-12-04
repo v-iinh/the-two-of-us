@@ -9,15 +9,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: cursive, sans-serif;
     color: #A8DADC;
     margin-inline: 50px;
     text-align: center;
 }
 
-.gif {
-    height: 100%;
-    width: 100%;
+.before {
+    margin-top: -100px;
+    margin-bottom: 15px;
 }
 
 h2 {
@@ -44,17 +44,19 @@ button{
     outline: none;
     cursor: pointer; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    font-family: cursive, sans-serif;
 }
 
 button:nth-child(1){
-    margin-right: 200px; 
+    margin-right: 175px; 
     background-color: #A8DADC;
     color: black;
-    border-color: white;
+    border-color: whitesmoke;
 }
 
 button:nth-child(2){
-    margin-right: -200px; 
+    margin-right: -175px; 
     color: #A8DADC;
     border-color: #A8DADC;
+    background-color: whitesmoke;
 }
