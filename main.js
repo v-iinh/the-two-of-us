@@ -10,13 +10,7 @@ const noBtnRect = noBtn.getBoundingClientRect();
 
 yesBtn.addEventListener('click', () => {
     question.innerHTML = "I knew you wouldn't say no !";
-});
-
-yesBtn.addEventListener('click', () => {
     whisper.innerHTML = '(yay)';
-});
-
-yesBtn.addEventListener('click', () => {
     image.src = 'img/after.gif';
 });
 
