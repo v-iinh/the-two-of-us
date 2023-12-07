@@ -4,11 +4,16 @@ const whisper = document.querySelector('.whisper');
 const image = document.querySelector('.image');
 const yesBtn = document.querySelector('.btn-yes');
 const noBtn = document.querySelector('.btn-no');
+const audioPlayer = document.getElementById('audioPlayer');
 
 const containerRect = container.getBoundingClientRect(); 
 const noBtnRect = noBtn.getBoundingClientRect(); 
 
 yesBtn.addEventListener('click', () => {
+    audioPlayer.play();
+    audioPlayer.currentTime += 1.5;
+    audioPlayer.volume = 0.25;
+
     question.innerHTML = "I knew you wouldn't say no !";
     whisper.innerHTML = '(yay)';
     image.src = 'img/after.gif';
