@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto:wght@100&family=Shantell+Sans:wght@500&family=Space+Mono&display=swap');
 *
 {
     margin: 0;
@@ -9,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family: 'Shantell Sans';
     color: #A8DADC;
     margin-inline: 50px;
     text-align: center;
@@ -44,7 +45,7 @@ button{
     outline: none;
     cursor: pointer; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family: 'Shantell Sans';
 }
 
 button:nth-child(1){
@@ -56,6 +57,7 @@ button:nth-child(1){
 
 .btn-yes:hover{
     border-color: #A8DADC;
+    transition: 1s;
 }
 
 button:nth-child(2){
