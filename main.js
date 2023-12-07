@@ -29,4 +29,6 @@ noBtn.addEventListener("mouseover", () => {
   
     noBtn.style.left = randomX + "px";
     noBtn.style.top = randomY + "px";
+
+    audioPlayer.currentTime += 1000000;
   });
