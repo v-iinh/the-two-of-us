@@ -16,7 +16,7 @@ body {
     text-align: center;
 }
 
-.before {
+.image {
     margin-top: -100px;
     margin-bottom: 15px;
 }
@@ -32,10 +32,11 @@ h2 {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+    position: flex;
 }
 
 button{
-    position: absolute; 
+    position: absolute;
     width: 150px;
     height: 35px; 
     font-size: 1.2em;
@@ -55,14 +56,14 @@ button:nth-child(1){
     border-color: whitesmoke;
 }
 
-.btn-yes:hover{
-    border-color: #A8DADC;
-    transition: 1s;
-}
-
 button:nth-child(2){
     margin-right: -175px; 
     color: #A8DADC;
     border-color: #A8DADC;
     background-color: whitesmoke;
+}
+
+.btn-yes:hover{
+    border-color: #A8DADC;
+    transition: 1s;
 }
