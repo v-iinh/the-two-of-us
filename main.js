@@ -12,7 +12,7 @@ const noBtnRect = noBtn.getBoundingClientRect();
 yesBtn.addEventListener('click', () => {
     audioPlayer.play();
     audioPlayer.currentTime += 1.5;
-    audioPlayer.volume = 0.15;
+    audioPlayer.volume = 1;
 
     question.innerHTML = "I knew you wouldn't say no !";
     whisper.innerHTML = '(yay)';
